@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+    <link rel="stylesheet" href="canvas.css">
+</head>
+
+<body dir="auto">
+    <section>
+        <canvas id="line" width="800" height="800"></canvas>
+        
+    </section>
+
+    <nav>
+        <br><br>
+        <button onclick="clickDo(200,250, true, 'green','do')" >Do</button> <br> <br>
+        <button onclick="clickDo(220,245, false, 'blue','re')">Re</button> <br> <br>
+        <button onclick="clickDo(240,240, false, 'Crimson','mi')">Mi</button> <br> <br>
+        <button onclick="clickDo(260,235, false, 'YellowGreen', 'fa')">Fa</button> <br> <br>
+        <button onclick="clickDo(280,230, false, 'Purple', 'sol')">Sol</button> <br> <br>
+        <button onclick="clickDo(300,225, false, 'OrangeRed', 'la')">La</button> <br> <br>
+        <button onclick="clickDo(320,220, false,'Lime', 'si')">Si</button> <br> <br>
+    </nav>
+    <audio id="do" loop="auto">
+        <source src="audio/do-80236.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="re" loop="auto">
+        <source src="audio/re-78500.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="mi" loop="auto">
+        <source src="audio/mi-80239.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="fa" loop="auto">
+        <source src="audio/fa-78409.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="sol" loop="auto">
+        <source src="audio/sol-101774.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="la" loop="auto">
+        <source src="audio/la-80237.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="si" loop="auto">
+        <source src="audio/si-80238.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="aa">
+        <source src="audio/יואלי דיקמן - נופל וקם.mp3" type="audio/mpeg" />
+    </audio>
+    <script src="canvas.js"></script>
+</body>
+
+</html>

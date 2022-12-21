@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+</head>
+
+<body>
+    <section>
+        <!-- <svg width="1335" height="610"> -->
+        <svg width="100%" height="610">
+            <defs>
+                <linearGradient id="MyGradient" gradientTransform="rotate(90)">
+                    <stop offset="10%" style="stop-color: MidnightBlue;" />
+                    <stop offset="33.3%" style="stop-color: #96476e" />
+                    <stop offset="100%" style="stop-color: #ffcc00;" />
+
+                </linearGradient>
+            </defs>
+
+            <rect fill="url(#MyGradient)" x="0" y="0" width="1335" height="610" />
+
+            <defs>
+                <filter id="f1">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+                </filter>
+            </defs>
+
+            <circle fill="yellow " filter="url(#f1)" cx="667" cy="610" r="150" />
+        </svg>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg</title>
+</head>
+
+<body>
+    <section>
+        <svg width="10000" height="10000">
+            <defs>
+                <linearGradient id="MyGradient">
+                    <stop offset="10%" stop-color="blue" />
+                    <stop offset="40%" stop-color="red" />
+                    <stop offset="80%" stop-color="orange" />
+                    <stop offset="99%" stop-color="yellow" />
+                </linearGradient>
+            </defs>
+            <rect fill="url(#MyGradient)" stroke="black" stroke-width="5" x="20" y="20" width="300" height="100" />
+
+            <rect fill="blue" stroke="red" stroke-width="30" x="300" y="300" width="500" height="500" />
+
+            <circle fill="url(#MyGradient)" stroke="black" stroke-width="3" cx="300" cy="300" r="300" />
+
+            <defs>
+                <radialGradient id="RadialGradient2">
+                    <stop offset="10%" stop-color="yellow" />
+                    <stop offset="90%" stop-color="blue" />
+                </radialGradient>
+                <pattern id="mycircleandsquare" patternUnits="userSpaceOnUse" x="0" y="0" width="150" height="100">
+                    <rect fill="url(#MyGradient)" stroke="black" stroke-width="5" x="20" y="20" width="30"
+                        height="30" />
+                </pattern>
+            </defs>
+            <ellipse fill="url(#mycircleandsquare)" stroke="black" stroke-width="5" cx="400" cy="200" rx="350"
+                ry="150" />
+
+            <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+
+
+            <polygon points="625,602.5 610,649.5
+647.5,619.5 602.5,619.5 640 ,649.5" style="fill: rgb(201, 201, 198)"></polygon>
+
+<path fill="none" d="M0 0h24v24H0z"/> <path fill-rule="nonzero" d="M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.979 6.979 0 0 0 10 7zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12z"/>
+
+<path d="M160,136c0-30.62,4.51-61.61,16-88C99.57,81.27,48,159.32,48,248c0,119.29,96.71,216,216,216,88.68,0,166.73-51.57,200-128-26.39,11.49-57.38,16-88,16C256.71,352,160,255.29,160,136Z" style="fill:none;stroke:rgb(255, 0, 0);stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
+<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" fill="red"></path> <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" fill="red"></path>
+
+</svg>
+    </section>
+</body>
+
+</html>

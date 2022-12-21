@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+section {
+    float: right;
+    width: 80%;
+}
+
+nav {
+    float: right;
+    width: 20%;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    background-color:MediumAquaMarine;
+    border: none;
+    border-radius: 10px;
+    /* color: ; */
+    color: rgb(251, 255, 0);
+}
